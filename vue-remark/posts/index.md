@@ -17,3 +17,5 @@ The excerpt is:
 > {{ $frontmatter.excerpt }}
 
 ## Prueba de que se ha configurado para el Deploy en GH
+
+> {{ $frontmatter.age }}
