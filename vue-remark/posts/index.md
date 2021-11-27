@@ -1,7 +1,7 @@
 ---
 title: "Hello Gridsome!"
 excerpt: "Our first post with gridsome"
-age: 66
+age: 67
 ---
 
 Welcome to **Gridsome**!
