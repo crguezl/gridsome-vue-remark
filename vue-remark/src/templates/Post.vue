@@ -3,7 +3,10 @@
     <div>
         <h1>{{ $page.post.title }}</h1>
         <p class="intro">{{ $page.post.excerpt }}</p>
-        <p><hr/></p>
+        <p>
+        <hr/>
+        </p>
+        
         <VueRemarkContent />
     </div>
   </Layout>

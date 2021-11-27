@@ -6,8 +6,6 @@
 
 let config = {
   siteName: 'Casiano\'s Blog with Gridsome',
-  siteUrl: 'https://crguezl.github.io',
-  pathPrefix: 'gridsome-vue-remark',
   plugins: [
     {
       use: '@gridsome/vue-remark',
@@ -19,6 +17,11 @@ let config = {
       },
     }
   ]
+}
+
+if (process.env['DEPLOY'] === 'github') {
+  config.siteUrl = 'https://crguezl.github.io';
+  config.pathPrefix = 'gridsome-vue-remark';
 }
 
 module.exports = config;
