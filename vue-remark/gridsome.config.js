@@ -4,8 +4,10 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-module.exports = {
+let config = {
   siteName: 'Casiano\'s Blog with Gridsome',
+  siteUrl: 'https://crguezl.github.io',
+  pathPrefix: 'gridsome-vue-remark',
   plugins: [
     {
       use: '@gridsome/vue-remark',
@@ -18,3 +20,5 @@ module.exports = {
     }
   ]
 }
+
+module.exports = config;
