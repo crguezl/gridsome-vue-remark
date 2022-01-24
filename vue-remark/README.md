@@ -1,5 +1,7 @@
 # Default starter for Gridsome
 
+https://www.youtube.com/playlist?list=PLFZAa7EupbB61QMSYFB8YX9qQUKnWxu_M
+
 This is the project you get when you run `gridsome create new-project`.
 
 ### 1. Install Gridsome CLI tool if you don't have

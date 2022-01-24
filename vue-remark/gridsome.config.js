@@ -15,7 +15,7 @@ let config = {
         template: 'src/templates/Post.vue',
         pathPrefix: '/blog'
       },
-    }
+    },
   ]
 }
 
